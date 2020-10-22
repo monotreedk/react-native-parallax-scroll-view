@@ -350,6 +350,7 @@ class ParallaxScrollView extends Component {
 	}
 
 	_renderFooterSpacer({ contentBackgroundColor }) {
+		return null;
 		return (
 			<View
 				ref={ref => {
