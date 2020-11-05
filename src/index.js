@@ -168,6 +168,9 @@ class ParallaxScrollView extends Component {
 	scrollTo(...args) {
 		this.getScrollResponder().scrollTo(...args)
 	}
+	scrollToEnd(...args) {
+		this.getScrollResponder().scrollToEnd(...args)
+	}
 	setNativeProps(props) {
 		this.refs[SCROLLVIEW_REF].setNativeProps(props)
 	}
